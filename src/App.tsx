@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Header from './components/Header'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import Project from './pages/Project'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/projects/:seoUrl' element={<Project />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
