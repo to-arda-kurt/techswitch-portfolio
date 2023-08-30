@@ -1,8 +1,14 @@
+import Projects from "./Projects";
+
 const Home = () => {
     return (
         <>
-            Home Page
-        </>
+            <div className="Home">
+                <h2>Latest Projects</h2>
+                <Projects />
+                <h3>Articles</h3>
+            </div>
+        </ >
     )
 }
 
