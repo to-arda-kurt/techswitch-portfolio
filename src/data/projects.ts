@@ -2,6 +2,7 @@ import { Project } from "../models.ts/Project";
 import photoviewer from '../assets/photoviewer.jpg';
 import busboard from '../assets/busboard.jpg';
 import poke from '../assets/Pokecyclopedia.jpg'
+import countries from '../assets/countries.jpg'
 
 const projects: Project[] = [
     {
@@ -27,6 +28,14 @@ const projects: Project[] = [
         gitHubUrl : "https://github.com/to-arda-kurt/pokecyclopedia",
         liveUrl: "https://resplendent-clafoutis-a78481.netlify.app/",
         technology: "Typescript, React, SASS, API"
+    },
+    {
+        name: "Countries",
+        description: "Countries Flags and Information App that used Counties REST API",
+        imageUrl : countries,
+        gitHubUrl : "https://github.com/to-arda-kurt/rest-countries",
+        liveUrl: "https://eloquent-shirley-303b43.netlify.app/",
+        technology: "React with Context API, Styled Component /w CSS Grid & Flexbox"
     }
 ]
 
